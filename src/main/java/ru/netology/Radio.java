@@ -49,7 +49,6 @@ public class Radio {
             this.currentVolume = maxVolume;
         }
     }
-
     public void increaseVolume() {
         if (currentVolume < maxVolume) {
             currentVolume++;
